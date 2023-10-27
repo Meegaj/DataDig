@@ -81,7 +81,7 @@ def main():
 
     #The main function to execute the data exploration steps above.
 
-    # Load the dataset by specifying the file path
+    # Load the dataset by specifying the file path replace 'your_dataset'
     file_path = 'your_dataset.csv'
     df = load_data(file_path)
 
