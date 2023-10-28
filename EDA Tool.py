@@ -65,18 +65,6 @@ def pair_plots(df, hue_column=None):
 
     plt.show()
 
-#Generates pair plots for the columns in the dataset
-def box_plots(df, hue_column=None):
-
-    sns.set_style('whitegrid')
-
-    if hue_column and hue_column in df.columns:
-        sns.pairplot(df, hue=hue_column, height=3)
-    else:
-        sns.pairplot(df, height=3)
-
-    plt.show()
-
 def main():
 
     #The main function to execute the data exploration steps above.
