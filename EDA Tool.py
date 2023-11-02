@@ -1,14 +1,12 @@
+#Author Ameena A. Gaji
+# Exploratory Data Analysis Tool
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# ==============================
-# Exploratory Data Analysis Tool
-# ==============================
-
-# Load the dataset
+# Load the dataset (csv file)
 def load_data(file_path):
-
     return pd.read_csv(file_path)
 
 # MissingValues: Check the gaps/NaN values in the dataset
@@ -69,7 +67,7 @@ def main():
 
     #The main function to execute the data exploration steps above.
 
-    # Load the dataset by specifying the file path replace 'your_dataset'
+    # Load the dataset by specifying the file path replace 'your_dataset' with actual dataset
     file_path = 'your_dataset.csv'
     df = load_data(file_path)
 
